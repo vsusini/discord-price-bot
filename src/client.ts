@@ -2,7 +2,6 @@ import { Client, ClientOptions, GatewayIntentBits, Events } from "discord.js";
 import { setupCommands } from "./commands";
 import { StatusManager } from "./services/statusManager";
 
-
 export class DiscordBot {
   private client: Client;
   private statusManager!: StatusManager;

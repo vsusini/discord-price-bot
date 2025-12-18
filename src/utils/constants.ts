@@ -3,6 +3,7 @@ import { ColorResolvable } from "discord.js";
 export const CONSTANTS = {
   COLORS: {
     PRIMARY: "#4a84fe" as ColorResolvable,
+    SUCCESS: "#57F287" as ColorResolvable,
   },
   TOKEN: {
     LABS: "LABSh5DTebUcUbEoLzXKCiXFJLecDFiDWiBGUU1GpxR",
